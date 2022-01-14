@@ -219,8 +219,23 @@ hr {
     .container{
         width: 100%;
     }
-    .players, .blogs, .courses{
+    .players{
         grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        padding-left: 25px;
+    }
+    .section-title{
+      text-align: center;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .course{
+      margin-bottom: 15px;
     }
     .players, .blog{
         flex-direction: column;
